@@ -1,0 +1,30 @@
+<!--
+ * @Description: 
+ * @Author: yilingsj（315800015@qq.com）
+ * @Date: 2020-05-19 10:45:04
+ * @LastEditors: yilingsj（315800015@qq.com）
+ * @LastEditTime: 2020-05-19 21:28:55
+ * @FilePath: \demo-gulp-file-include\assets\list.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>列表页</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  @@include("head.tpl")
+</head>
+<body>
+  <!-- 导航 start -->
+  @@include("nav.tpl")
+  <!-- 导航 end -->
+  <!-- 内容区 start -->
+  <div class="content">
+    这是list页面 <br>内容区（内容省略）
+  </div>
+  <!-- 内容区 end -->
+  <!-- 页尾 start -->
+  @@include("footer.tpl")
+  <!-- 页尾 end -->
+</body>
+</html>

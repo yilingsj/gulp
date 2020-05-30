@@ -1,0 +1,31 @@
+<!--
+ * @Description: 
+ * @Author: yilingsj（315800015@qq.com）
+ * @Date: 2020-05-19 10:44:51
+ * @LastEditors: yilingsj（315800015@qq.com）
+ * @LastEditTime: 2020-05-19 21:28:41
+ * @FilePath: \demo-gulp-file-include\assets\index.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>首页 - 实现模板复用，提高开发效率</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  @@include("head.tpl")
+</head>
+<body>
+  <!-- 导航模板 start -->
+  @@include("nav.tpl")
+  <!-- 导航模板 end -->
+  <!-- 内容区 start -->
+  <div class="content">
+    这是index页面 <br>内容区（内容省略）<br>
+	文章地址：<a href="http://www.yilingsj.com/xwzj/2020-05-19/gulp-file-include.html">gulp3实战技巧之利用gulp-file-include实现模板复用，大大提高开发效率！</a>
+  </div>
+  <!-- 内容区 end -->
+  <!-- 页尾模板 start -->
+  @@include("footer.tpl")
+  <!-- 页尾模板 end -->
+</body>
+</html>

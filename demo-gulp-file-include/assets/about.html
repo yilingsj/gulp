@@ -1,0 +1,30 @@
+<!--
+ * @Description: 
+ * @Author: yilingsj（315800015@qq.com）
+ * @Date: 2020-05-19 10:44:57
+ * @LastEditors: yilingsj（315800015@qq.com）
+ * @LastEditTime: 2020-05-19 16:03:12
+ * @FilePath: \demo-gulp-file-include\assets\about.html
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>关于我们</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  @@include("head.tpl")
+</head>
+<body>
+  <!-- 导航 start -->
+  @@include("nav.tpl")
+  <!-- 导航 end -->
+  <!-- 内容区 start -->
+  <div class="content">
+    这是about页面 <br>内容区（内容省略）
+  </div>
+  <!-- 内容区 end -->
+  <!-- 页尾 start -->
+  @@include("footer.tpl")
+  <!-- 页尾 end -->
+</body>
+</html>
